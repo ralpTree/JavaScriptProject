@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Memory Game</title>
+
+<script type="text/javascript" src="javascript/hh.js"></script>
+		</script>
+		
+		<style type="text/css">
+			#memory_board{
+				background:#CCC;
+				border:#999 1px solid;
+				width:810px;
+				height:540px;
+				padding:24px;
+				margin:0px auto;
+				}
+			#memory_board > div{
+				background-image: url("images/g.png");
+				background-repeat: no-repeat;
+				border:1px solid #000;
+				width:71px;
+				height:71px;
+				float:left;
+				margin:10px;
+				padding:20px;
+				font-size:64px;
+				cursor:pointer;
+				text-align:center;
+			}
+		</style>
+</head>
+<body">
+<div id="memory_board"></div>
+<script>newBoard();</script>
+</body>
+</html>
